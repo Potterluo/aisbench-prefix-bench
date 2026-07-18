@@ -15,7 +15,7 @@ MODEL_PATH = "/home/weights/model_weights"  # Tokenizer/model weights path
 NPU_NUM = 1                    # NPU card count (for single-card throughput)
 
 # ===== AISBench configuration =====
-WORK_PATH = "/home/benchmark"  # AISBench installation directory
+WORK_PATH = "/benchmark"       # AISBench installation directory (container default: /benchmark)
 DATASET_PATH = "/home/dataset" # Directory to store generated datasets
 OUTPUT_DIR = "./outputs/default"
 SUMMARIZER = "default_perf"    # "default_perf" or "stable_stage"

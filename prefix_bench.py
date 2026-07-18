@@ -140,7 +140,8 @@ Examples:
 
     # ===== AISBench configuration =====
     parser.add_argument("--work_path", type=str, default=WORK_PATH,
-                        help=f"AISBench installation directory (default from config: {WORK_PATH})")
+                        help=f"AISBench installation directory (default from config: {WORK_PATH}, "
+                             "AISBench container default: /benchmark)")
     parser.add_argument("--dataset_path", type=str, default=DATASET_PATH,
                         help=f"Dataset storage directory (default from config: {DATASET_PATH})")
     parser.add_argument("--output_dir", type=str, default=OUTPUT_DIR,
