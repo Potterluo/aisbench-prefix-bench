@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.zcode/
+
+# E2E test outputs
+e2e_output/
+e2e_output_warmup/
+
+# Generated zip archives
+*.zip
+
+# AISBench runtime artifacts
+outputs/
+aisbench.log
+temp_api.py
+prefix_bench_result.csv
+prefix_bench_result.jsonl
